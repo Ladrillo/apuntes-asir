@@ -105,7 +105,7 @@ done
 - Hacer el script ejecutable: chmod +x agregar_usuarios.sh
 - Ejecutar el script: ./agregar_usuarios.sh
 
-## Mejores Prácticas
+## Buenas Prácticas
 
 - Revisar regularmente los derechos de acceso de los usuarios.
 - Siempre utilizar sudo para tareas administrativas para evitar usar directamente la cuenta de root.
