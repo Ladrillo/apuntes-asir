@@ -12,12 +12,12 @@ Gestionar usuarios en Linux implica una variedad de tareas desde crear cuentas d
 
 ## Creación de Usuarios Avanzada
 
-- **Agregar un usuario con un directorio de inicio específico**: `sudo useradd -m -d /path/to/home/directory username`
-  - *Verificación*: Confirmar listando el directorio de inicio con `ls -ld /path/to/home/directory`.
+- **Agregar un usuario con un directorio de inicio específico**: `sudo useradd -m -d /home/directorio-alternativo username`
+  - *Verificación*: Confirmar listando el directorio de inicio con `ls -ld /home/directorio-alternativo`.
   - *Comentario*: La opción `-m` es para crear el directorio de inicio si no existe y `-d` para especificar un directorio.
 - **Agregar un usuario añadiéndolo a un grupo específico**: `sudo useradd -m -G groupname username`
   - *Verificación*: Asegurarse de que el usuario esté agregado al grupo revisando `groups username`.
-  - *Comentario*: Exacto. Sin embargo, ten en cuenta que para agregar un usuario a un grupo ya existente, puedes usar `sudo usermod -aG groupname username` para evitar crear un nuevo usuario (`useradd` puede crear un usuario nuevo si `username` no existe).
+  - *Comentario*: Sin embargo, ten en cuenta que para agregar un usuario a un grupo ya existente, puedes usar `sudo usermod -aG groupname username` para evitar crear un nuevo usuario (`useradd` puede crear un usuario nuevo si `username` no existe).
 
 ## Otorgar Acceso Sudo
 
