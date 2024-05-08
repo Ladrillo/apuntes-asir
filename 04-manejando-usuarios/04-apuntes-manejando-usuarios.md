@@ -6,20 +6,23 @@ Gestionar usuarios en Linux implica una variedad de tareas desde crear cuentas d
 
 ## Creación de Usuarios
 
-- **Agregar un nuevo usuario**: `sudo adduser newusername`
-  - *Verificación*: Verificar consultando `/etc/passwd` usando `grep newusername /etc/passwd`.
-  - *Comentario*: `adduser` es preferido por su naturaleza interactiva, lo cual es útil para principiantes.
-- **Agregar un usuario con un directorio de inicio específico**: `sudo useradd -m -d /path/to/home/directory newusername`
+- **Agregar un nuevo usuario**: `sudo adduser akira`
+  - *Verificación*: Verificar consultando `/etc/passwd` usando `cat /etc/passwd` o `grep akira /etc/passwd`.
+  - *Comentario*: Correcto. `adduser` es preferido por su naturaleza interactiva, especialmente para principiantes.
+
+## Creación de Usuarios Avanzada
+
+- **Agregar un usuario con un directorio de inicio específico**: `sudo useradd -m -d /path/to/home/directory akira`
   - *Verificación*: Confirmar listando el directorio de inicio con `ls -ld /path/to/home/directory`.
-  - *Comentario*: La opción `-m` crea el directorio de inicio si no existe.
-- **Agregar un usuario a un grupo específico**: `sudo useradd -m -G groupname newusername`
-  - *Verificación*: Asegurarse de que el usuario esté agregado al grupo revisando `groups newusername`.
-  - *Comentario*: Es crucial incluir `-m` cuando el usuario podría no tener ya un directorio de inicio.
+  - *Comentario*: Correcto. La opción `-m` es para crear el directorio de inicio si no existe y `-d` para especificar un directorio.
+- **Agregar un usuario añadiéndolo a un grupo específico**: `sudo useradd -m -G groupname akira`
+  - *Verificación*: Asegurarse de que el usuario esté agregado al grupo revisando `groups akira`.
+  - *Comentario*: Exacto. Sin embargo, ten en cuenta que para agregar un usuario a un grupo ya existente, puedes usar `sudo usermod -aG groupname akira` para evitar crear un nuevo usuario (`useradd` puede crear un usuario nuevo si `akira` no existe).
 
 ## Otorgar Acceso Sudo
 
-- **Agregar un usuario al grupo sudo**: `sudo usermod -aG sudo newusername`
-  - *Verificación*: Confirmar usando `sudo -l -U newusername` para ver sus privilegios sudo.
+- **Agregar un usuario al grupo sudo**: `sudo usermod -aG sudo akira`
+  - *Verificación*: Confirmar usando `sudo -l -U akira` para ver sus privilegios sudo.
   - *Comentario*: Este comando agrega al usuario al grupo `sudo`, otorgándole privilegios administrativos.
 
 ## Modificación de Atributos del Usuario
