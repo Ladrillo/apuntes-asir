@@ -15,13 +15,13 @@ Gestionar usuarios en Linux implica una variedad de tareas desde crear cuentas d
 - **Agregar un usuario con un directorio de inicio específico**: `sudo useradd -m -d /home/directorio-alternativo username`
   - *Verificación*: Confirmar listando el directorio de inicio con `ls -ld /home/directorio-alternativo`.
   - *Comentario*: La opción `-m` es para crear el directorio de inicio si no existe y `-d` para especificar un directorio.
-- **Agregar un usuario añadiéndolo a un grupo específico**: `sudo useradd -m -G groupname username`
-  - *Verificación*: Asegurarse de que el usuario esté agregado al grupo revisando `groups username`.
-  - *Comentario*: Sin embargo, ten en cuenta que para agregar un usuario a un grupo ya existente, puedes usar `sudo usermod -aG groupname username` para evitar crear un nuevo usuario (`useradd` puede crear un usuario nuevo si `username` no existe).
+- **Agregar un usuario con una contraseña (INSEGURO!)**: `sudo useradd -m -d /home/directorio-usuario username -p contraseña`
+  - *Verificación*: Confirmar la creación del usuario revisando su entrada en `/etc/passwd`.
+  - *Comentario*: La opción `-m` crea el directorio de inicio si no existe y `-d` especifica el directorio. La opción `-p` se utiliza aquí para establecer directamente la contraseña en texto, lo cual **no es recomendable por razones de seguridad**, ya que la contraseña podría ser expuesta a cualquiera que tenga acceso al historial de comandos o a los procesos del sistema.
 
 ## Otorgar Acceso Sudo
 
-- **Agregar un usuario al grupo sudo**: `sudo usermod -aG sudo username`
+- **Agregar un usuario existente al grupo sudo**: `sudo usermod -aG sudo username`
   - *Verificación*: Confirmar usando `sudo -l -U username` para ver sus privilegios sudo.
   - *Comentario*: Este comando agrega al usuario al grupo `sudo`, otorgándole privilegios administrativos.
 
