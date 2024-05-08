@@ -8,13 +8,13 @@ Gestionar usuarios en Linux implica una variedad de tareas desde crear cuentas d
 
 - **Agregar un nuevo usuario**: `sudo adduser akira`
   - *Verificación*: Verificar consultando `/etc/passwd` usando `cat /etc/passwd` o `grep akira /etc/passwd`.
-  - *Comentario*: Correcto. `adduser` es preferido por su naturaleza interactiva, especialmente para principiantes.
+  - *Comentario*: `adduser` es preferido por su naturaleza interactiva, especialmente para principiantes.
 
 ## Creación de Usuarios Avanzada
 
 - **Agregar un usuario con un directorio de inicio específico**: `sudo useradd -m -d /path/to/home/directory akira`
   - *Verificación*: Confirmar listando el directorio de inicio con `ls -ld /path/to/home/directory`.
-  - *Comentario*: Correcto. La opción `-m` es para crear el directorio de inicio si no existe y `-d` para especificar un directorio.
+  - *Comentario*: La opción `-m` es para crear el directorio de inicio si no existe y `-d` para especificar un directorio.
 - **Agregar un usuario añadiéndolo a un grupo específico**: `sudo useradd -m -G groupname akira`
   - *Verificación*: Asegurarse de que el usuario esté agregado al grupo revisando `groups akira`.
   - *Comentario*: Exacto. Sin embargo, ten en cuenta que para agregar un usuario a un grupo ya existente, puedes usar `sudo usermod -aG groupname akira` para evitar crear un nuevo usuario (`useradd` puede crear un usuario nuevo si `akira` no existe).
