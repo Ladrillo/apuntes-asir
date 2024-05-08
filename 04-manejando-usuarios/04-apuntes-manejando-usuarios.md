@@ -31,7 +31,7 @@ Gestionar usuarios en Linux implica una variedad de tareas desde crear cuentas d
   - *Verificación*: Verificar el cambio usando `sudo chage -l username` para ver la fecha de cambio de contraseña.
 - **Agregar un usuario a un grupo suplementario**: `sudo usermod -a -G groupname username`
   - *Verificación*: Usar `groups username` para verificar que el usuario ha sido agregado al grupo.
-- **Cambiar el shell predeterminado de un usuario**: `sudo usermod -s /bin/bash username`
+- **Cambiar el shell predeterminado de un usuario** (este ejemplo cambia al shell `sh`): `sudo usermod -s /bin/sh username`
   - *Verificación*: Confirmar revisando el shell del usuario en `/etc/passwd` con `grep username /etc/passwd`.
   - *Comentario*: Cambiar el shell puede afectar significativamente la experiencia del usuario, asegurarse de la compatibilidad es importante.
 
