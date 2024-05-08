@@ -15,9 +15,9 @@ Gestionar usuarios en Linux implica una variedad de tareas desde crear cuentas d
 - **Agregar un usuario con un directorio de inicio específico**: `sudo useradd -m -d /home/directorio-alternativo username`
   - *Verificación*: Confirmar listando el directorio de inicio con `ls -ld /home/directorio-alternativo`.
   - *Comentario*: La opción `-m` es para crear el directorio de inicio si no existe y `-d` para especificar un directorio.
-- **Agregar un usuario con una contraseña (INSEGURO!)**: `sudo useradd -m -d /home/directorio-usuario username -p contraseña`
+- **Agregar un usuario con una contraseña (Ejemplo inseguro!)**: `sudo useradd -m akira -p akirarules`
   - *Verificación*: Confirmar la creación del usuario revisando su entrada en `/etc/passwd`.
-  - *Comentario*: La opción `-m` crea el directorio de inicio si no existe y `-d` especifica el directorio. La opción `-p` se utiliza aquí para establecer directamente la contraseña en texto, lo cual **no es recomendable por razones de seguridad**, ya que la contraseña podría ser expuesta a cualquiera que tenga acceso al historial de comandos o a los procesos del sistema.
+  - *Comentario*: La opción `-m` crea el directorio de inicio si no existe. La opción `-p` se utiliza aquí para establecer directamente la contraseña en texto, lo cual **no es recomendable por razones de seguridad**, ya que la contraseña podría ser expuesta a cualquiera que tenga acceso al historial de comandos o a los procesos del sistema.
 
 ## Otorgar Acceso Sudo
 
