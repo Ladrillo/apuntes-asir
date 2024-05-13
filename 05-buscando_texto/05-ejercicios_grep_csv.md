@@ -3,7 +3,7 @@
 1. Extraer las líneas donde el nombre comienza con 'A'.
 2. Encontrar los registros que tienen un apellido que comienza con 'G'.
 3. Seleccionar las entradas donde el estado civil es 'true'.
-4. Localizar los correos electrónicos que contienen 'example.com'.
+4. Localizar los correos electrónicos que no contienen 'example.com'.
 5. Identificar los registros donde el campo del email está vacío.
 6. Filtrar las líneas donde el año de nacimiento es posterior a 1990.
 7. Listar los registros que no tienen el campo 'apellido' definido.

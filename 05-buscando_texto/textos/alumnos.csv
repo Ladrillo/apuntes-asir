@@ -2,7 +2,7 @@ nombre,apellido,nacido,casado,email
 Iñaki,Gonzalez,1990-04-15,true,inaki.gonzalez@example.net
 Gilberto,Ramirez,1982-11-23,false,
 Jared,Alonso,1975-09-01,true,jared.alonso@example.com
-Javier,,2000-01-20,,javier.something@example.com
+Javier,,2000-01-20,,javier.something@example.net
 Leo,Martinez,1988-03-30,true,leo.martinez@example.com
 Pablo,Diaz,1995-05-21,false,pablo.diaz@example.com
 Marina,Ortega,1993-07-14,,marina.ortega@example.com
@@ -28,7 +28,7 @@ Lucía,Sanz,1987-12-12,false,lucia.sanz@example.com
 Felipe,Reyes,1989-01-30,true,felipe.reyes@example.com
 Carmen,Díaz,1995-02-11,,carmen.diaz@example.com
 Manuel,Alonso,1997-07-28,false,manuel.alonso@example.com
-Victor,Gomez,1992-10-05,true,victor.gomez@example.com
+Victor,Gomez,1992-10-05,true,victor.gomez@example.net
 Marta,Suarez,1979-03-21,false,
 Hugo,Vidal,2001-08-15,true,hugo.vidal@example.com
 Alba,Moreno,1985-11-28,,alba.moreno@example.com
