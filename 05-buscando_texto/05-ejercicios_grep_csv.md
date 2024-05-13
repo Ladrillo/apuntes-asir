@@ -1,4 +1,4 @@
-# Ejercicios grep
+# Ejercicios grep CSV
 
 1. Extraer las líneas donde el nombre comienza con 'A'.
 2. Encontrar los registros que tienen un apellido que comienza con 'G'.

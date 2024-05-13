@@ -54,6 +54,12 @@ La opción `-w` asegura que "the" se coincida como una palabra discreta, no como
 - **Ejemplo:** `grep -e 'Don' -e 'Sancho' don_quijote.txt`
 La opción `-e` permite múltiples patrones de búsqueda.
 
+### Coincidencia de Múltiples Patrones Avanzado
+
+- **Uso:** Buscar líneas que coincidan con cualquiera de varios patrones.
+- **Ejemplo:** `grep -E 'Don|Sancho' don_quijote.txt`
+La opción `-E` permite usar un regex con varias opciones.
+
 ### Invertir la Coincidencia
 
 - **Uso:** Encontrar líneas que no contengan el patrón especificado.
