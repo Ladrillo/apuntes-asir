@@ -27,10 +27,10 @@ Este comando buscará el término "Dulcinea" en el archivo e imprimirá cada lí
 ### Búsqueda Insensible a Mayúsculas y Minúsculas
 
 - **Uso:** Buscar sin importar las mayúsculas.
-- **Ejemplo:** `grep -i 'windmill' don_quijote.txt`
-La opción `-i` hace que la búsqueda no distinga entre mayúsculas y minúsculas, útil para captar todas las formas de "windmill", "Windmill", etc.
+- **Ejemplo:** `grep -i 'molino' don_quijote.txt`
+La opción `-i` hace que la búsqueda no distinga entre mayúsculas y minúsculas, útil para captar todas las formas de "molino", "Molino", etc.
 
-### Conteo de Ocurrencias
+### Contando el Número de Coincidencias
 
 - **Uso:** Contar cuántas líneas contienen la coincidencia.
 - **Ejemplo:** `grep -c 'Sancho' don_quijote.txt`
