@@ -57,19 +57,19 @@ La opción `-e` permite múltiples patrones de búsqueda.
 ### Coincidencia de Múltiples Patrones Avanzado
 
 - **Uso:** Buscar líneas que coincidan con cualquiera de varios patrones.
-- **Ejemplo:** `grep -E 'Don|Sancho' don_quijote.txt`
+- **Ejemplo:** `grep -E 'Quijote|Sancho' don_quijote.txt`
 La opción `-E` permite usar un regex con varias opciones.
 
 ### Invertir la Coincidencia
 
 - **Uso:** Encontrar líneas que no contengan el patrón especificado.
-- **Ejemplo:** `grep -v 'love' don_quijote.txt`
-La opción `-v` invierte la coincidencia, mostrando líneas que no contienen "love".
+- **Ejemplo:** `grep -v 'a' don_quijote.txt`
+La opción `-v` invierte la coincidencia, mostrando líneas que no contienen la letra "a".
 
 ### Extraer Contexto Alrededor de las Coincidencias
 
 - **Uso:** Ver líneas alrededor de una coincidencia para obtener contexto.
-- **Ejemplo:** `grep -C 2 'battle' don_quijote.txt`
+- **Ejemplo:** `grep -C 2 'batalla' don_quijote.txt`
 La opción `-C` muestra el número especificado (2 en este caso) de líneas antes y después de cada línea coincidente.
 
 ### Nombres de Archivos Sin Líneas Coincidentes
