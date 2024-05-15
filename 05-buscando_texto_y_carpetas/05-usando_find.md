@@ -118,31 +118,25 @@ A continuación, se presentan varios ejemplos prácticos de cómo usar `find` pa
     find . -type f -perm 755
     ```
 
-16. Buscar archivos con un nombre exacto
-
-    ```bash
-    find . -type f -name "exacto.txt"
-    ```
-
-17. Buscar archivos con múltiples extensiones (por ejemplo, .txt y .md)
+16. Buscar archivos con múltiples extensiones (por ejemplo, .txt y .md)
 
     ```bash
     find . \( -name "*.txt" -o -name "*.md" \)
     ```
 
-18. Buscar y eliminar archivos de una extensión específica (con confirmación)
+17. Buscar y eliminar archivos de una extensión específica (con confirmación)
 
     ```bash
     find . -type f -name "*.bak" -exec rm -i {} \;
     ```
 
-19. Buscar y listar archivos con detalles (usando ls)
+18. Buscar y listar archivos con detalles (usando ls)
 
     ```bash
     find . -type f -name "*.txt" -exec ls -l {} \;
     ```
 
-20. Piping resultados a grep para encontrar texto en directorios seleccionados
+19. Piping resultados a grep para encontrar texto en directorios seleccionados
 
     ```bash
     find . -type f -name "*.txt" -exec grep "texto_buscar" {} +
