@@ -24,6 +24,12 @@ Ahora exploraremos cómo se puede utilizar grep para realizar búsquedas efectiv
 - **Ejemplo:** `grep 'Dulcinea' don_quijote.txt`
 Este comando buscará el término "Dulcinea" en el archivo e imprimirá cada línea que contenga la palabra.
 
+### Búsqueda de Texto Simple Recursiva
+
+- **Uso:** Encontrar todas las ocurrencias de una palabra específica en cualquier archivo a partir de nuestra ubicación.
+- **Ejemplo:** `grep -r 'error'`
+Este comando buscará el término "error" en cualquier archivo a partir de nuestra ubicación.
+
 ### Búsqueda Insensible a Mayúsculas y Minúsculas
 
 - **Uso:** Buscar sin importar las mayúsculas.
