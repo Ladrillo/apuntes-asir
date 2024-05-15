@@ -2,7 +2,7 @@
 
 ## Introducción
 
-El comando `find` en Linux es una herramienta esencial para cualquier usuario que necesite localizar archivos o directorios en su sistema de archivos. A diferencia de otras herramientas de búsqueda, `find` permite a los usuarios filtrar su búsqueda mediante especificaciones detalladas, como tipos de archivo, fechas de modificación, tamaños de archivo y permisos, entre otros. Esta capacidad lo hace invaluable para la administración de sistemas, la programación y la automatización de tareas diarias.
+El comando `find` en Linux es una herramienta esencial para cualquier usuario que necesite localizar archivos o directorios en su sistema de archivos. A diferencia de otras herramientas de búsqueda, `find` permite a los usuarios filtrar su búsqueda mediante especificaciones detalladas, como tipos de archivo, fechas de modificación, tamaños de archivo y permisos, entre otros. Esta capacidad lo hace esencial para la administración de sistemas, la programación y la automatización de tareas diarias.
 
 ## Explicación
 
@@ -19,6 +19,7 @@ La sintaxis básica del comando `find` es la siguiente:
 ### Opciones Comunes
 
 - `-name`: Busca archivos que coincidan con un nombre de archivo dado.
+- `-iname`: Busca archivos que coincidan con un nombre dado insensible a mayúsculas.
 - `-type`: Busca por tipo de archivo (e.g., `d` para directorios, `f` para archivos regulares).
 - `-size`: Busca archivos de un tamaño específico.
 - `-mtime`, `-atime`, `-ctime`: Busca archivos por fecha de modificación, acceso o cambio de estado, respectivamente.
@@ -27,35 +28,125 @@ La sintaxis básica del comando `find` es la siguiente:
 
 A continuación, se presentan varios ejemplos prácticos de cómo usar `find` para localizar diferentes tipos de carpetas en un sistema Ubuntu.
 
-### Encontrar Todos los Directorios en una Ruta Específica
+1. Buscar todos los directorios
 
-Para encontrar todos los directorios dentro del directorio `/home/usuario`:
+    ```bash
+    find . -type d
+    ```
 
-`find /home/usuario -type d`
+2. Buscar todos los archivos
 
-Este comando listará todos los directorios bajo la ruta especificada.
+    ```bash
+    find . -type f
+    ```
 
-### Buscar un Directorio por Nombre
+3. Buscar directorios con coincidencia parcial en el nombre
 
-Si estás buscando un directorio llamado `Proyectos` en tu sistema completo:
+    ```bash
+    find . -type d -name "*parcial*"
+    ```
 
-`find / -type d -name "Proyectos"`
+4. Búsqueda sensible a mayúsculas y minúsculas (archivos con nombre específico)
 
-Este comando buscará desde la raíz (`/`) para encontrar un directorio exactamente llamado `Proyectos`.
+    ```bash
+    find . -type f -name "Archivo.md"
+    ```
 
-### Localizar Directorios Modificados en los Últimos 7 Días
+5. Búsqueda insensible a mayúsculas y minúsculas (archivos con nombre específico)
 
-Para encontrar directorios que han sido modificados en los últimos 7 días dentro de `/var`:
+    ```bash
+    find . -type f -iname "archivo.md"
+    ```
 
-`find /var -type d -mtime -7`
+6. Buscar archivos con una extensión específica
 
-### Encontrar Directorios Vacíos
+    ```bash
+    find . -type f -name "*.txt"
+    ```
 
-Para localizar todos los directorios vacíos dentro de una estructura de carpetas:
+7. Buscar todos los directorios pero excluir directorios no deseados como .git
 
-`find /ruta/a/buscar -type d -empty`
+    ```bash
+    find . -name .git -prune -o -type d
+    ```
 
-Este ejemplo es especialmente útil para limpiar o reorganizar datos.
+8. Buscar archivos modificados en los últimos 7 días
+
+    ```bash
+    find . -type f -mtime -7
+    ```
+
+9. Buscar carpetas vacías
+
+    ```bash
+    find . -type d -empty
+    ```
+
+10. Usar comodines para buscar archivos que empiezan con "log"
+
+    ```bash
+    find . -type f -name "log*"
+    ```
+
+11. Buscar archivos de un tamaño específico (por ejemplo, mayor que 1 MB)
+
+    ```bash
+    find . -type f -size +1M
+    ```
+
+12. Buscar archivos de un tamaño específico (por ejemplo, menor que 1 KB)
+
+    ```bash
+    find . -type f -size -1k
+    ```
+
+13. Buscar archivos accesados en los últimos 30 días
+
+    ```bash
+    find . -type f -atime -30
+    ```
+
+14. Buscar archivos creados hace más de 60 días
+
+    ```bash
+    find . -type f -ctime +60
+    ```
+
+15. Buscar archivos por permisos (por ejemplo, archivos con permisos 755)
+
+    ```bash
+    find . -type f -perm 755
+    ```
+
+16. Buscar archivos con un nombre exacto
+
+    ```bash
+    find . -type f -name "exacto.txt"
+    ```
+
+17. Buscar archivos con múltiples extensiones (por ejemplo, .txt y .md)
+
+    ```bash
+    find . \( -name "*.txt" -o -name "*.md" \)
+    ```
+
+18. Buscar y eliminar archivos de una extensión específica (con confirmación)
+
+    ```bash
+    find . -type f -name "*.bak" -exec rm -i {} \;
+    ```
+
+19. Buscar y listar archivos con detalles (usando ls)
+
+    ```bash
+    find . -type f -name "*.txt" -exec ls -l {} \;
+    ```
+
+20. Piping resultados a grep para encontrar texto en directorios seleccionados
+
+    ```bash
+    find . -type f -name "*.txt" -exec grep "texto_buscar" {} +
+    ```
 
 ## Conclusión
 
