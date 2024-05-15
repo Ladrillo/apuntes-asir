@@ -15,12 +15,12 @@ Para asegurarte de que el servicio se inicie automáticamente al arrancar el sis
 `sudo systemctl enable nginx`
 
 **Localización del Documento de Bienvenida:**
-El documento de bienvenida predeterminado de Nginx se encuentra en el directorio `/var/www/html` en el archivo `index.html`. Puedes acceder a este documento visitando la dirección IP de tu servidor en un navegador web.
+El documento de bienvenida predeterminado de Nginx se encuentra en el directorio `/var/www/html` en el archivo `index.html` (o nombre similar). Puedes acceder a este documento visitando la dirección IP de tu servidor en un navegador web.
 
 **Edición del Documento de Bienvenida:**
 Puedes editar el documento de bienvenida manualmente utilizando un editor de texto. Por ejemplo, puedes usar `nano`:
 `sudo nano /var/www/html/index.html`
-Realiza los cambios necesarios en el archivo y guarda los cambios.
+Realiza los cambios necesarios en el archivo y guarda los cambios. El archivo HTML puede tener un nombre ligeramente distinto.
 
 **Localización del Archivo de Configuración:**
 El archivo de configuración principal de Nginx se encuentra en `/etc/nginx/nginx.conf`. Este archivo contiene la configuración global de Nginx, incluidas las directivas relacionadas con el comportamiento del servidor, el registro, las rutas de los archivos, y más.
