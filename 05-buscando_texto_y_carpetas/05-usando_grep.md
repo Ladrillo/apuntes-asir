@@ -39,14 +39,14 @@ La opción `-c` devolverá el número de líneas que contienen "Sancho".
 ### Mostrar Números de Línea
 
 - **Uso:** Identificar dónde en el texto ocurren las coincidencias.
-- **Ejemplo:** `grep -n 'knight' don_quijote.txt`
+- **Ejemplo:** `grep -ni 'dulcinea' don_quijote.txt`
 La opción `-n` prefija cada línea coincidente con el número de línea.
 
 ### Coincidencia de Palabras Completas
 
 - **Uso:** Buscar solo coincidencias de palabras completas.
-- **Ejemplo:** `grep -w 'the' don_quijote.txt`
-La opción `-w` asegura que "the" se coincida como una palabra discreta, no como una subcadena de otra palabra.
+- **Ejemplo:** `grep -w 'galgo' don_quijote.txt`
+La opción `-w` asegura que no se incluya "galgos" en los resultados.
 
 ### Coincidencia de Múltiples Patrones
 
