@@ -26,7 +26,7 @@ Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que 
 4. **Inicialización**. Crear un repositorio de Git dentro del directorio del proyecto.
 5. **Flujo de trabajo**. Explicar cómo editar el proyecto y crear un commit localmente (no hace falta empujar a Github).
 
-Todo este procedimiento es "local": no es necesario incluir instrucciones sobre cómo empujar el proyecto a [GitHub](https://github.com).
+Todo este procedimiento es "local": no es necesario incluir instrucciones sobre cómo colocar el hipotético proyecto en [GitHub](https://github.com).
 
 ## Valoración
 
@@ -38,6 +38,8 @@ Todo este procedimiento es "local": no es necesario incluir instrucciones sobre 
 
 ## Entrega
 
-Crea un repositorio en tu cuenta de GitHub llamado `usando_git_en_un_proyecto` por ejemplo, y escribe tu procedimiento en un archivo `README.md` en el directorio raíz del proyecto. Las capturas de pantalla deben incluirse también en el repositorio. Los links a otras páginas, y las imágenes deben funcionar.
+El procedimiento debe entregarse colocándolo en [GitHub](https://github.com) en un repositorio público.
+
+Escribe tu procedimiento en un archivo `README.md` en el directorio raíz del proyecto. Las capturas de pantalla deben incluirse en el proyecto y empujarse a GitHub. Los links a otras páginas, y las imágenes deben funcionar.
 
 El profesor corregirá tu trabajo buscándolo en GitHub.
