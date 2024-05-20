@@ -29,9 +29,9 @@ Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que 
 
 ## Valoración
 
-1. Se valorará utilizar Markdown correctamente. Instala la extensión [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) para que te avise de los problemas con el formato. Investiga cómo crear enlaces (tienes un ejemplo en este mismo párrafo) e insertar imágenes en Markdown.
+1. Se valorará utilizar Markdown correctamente. Instala la extensión [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) para que te avise de los problemas con el formato. Investiga cómo crear enlaces (tienes un ejemplo en este mismo párrafo) y cómo insertar imágenes en documentos de Markdown.
 
-2. Se valorará la claridad y exhaustividad del procedimiento. Que no falten pasos, que no haya saltos al vacío, ni incoherencias. Los pantallazos deben ser claros, el texto de los mismos bien visible.
+2. Se valorará la claridad y exhaustividad del procedimiento. Que no falten pasos, que no haya saltos al vacío, ni incoherencias. Los pantallazos deben ser claros, el texto de los mismos bien visible. No captures el escritorio completo, solo la parte relevante.
 
 3. Se valorará incluir vínculos a páginas de internet que expandan la información aportada en el procedimiento.
 
