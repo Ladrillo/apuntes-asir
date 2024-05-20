@@ -16,7 +16,7 @@ El punto de partida imaginario del procedimiento es un ordenador Ubuntu **sin gi
 
 ### Pasos del Procedimiento
 
-Título: utilizar Git en un Proyecto Web.
+Título: **Cómo utilizar Git en un Proyecto**.
 
 Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que detallarse:
 
