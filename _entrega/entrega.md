@@ -33,6 +33,8 @@ Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que 
 
 2. Se valorará la claridad y exhaustividad del procedimiento. Que no falten pasos, que no haya saltos al vacío, ni incoherencias. Los pantallazos deben ser claros, el texto de los mismos bien visible.
 
+3. Se valorará incluir links a páginas de internet que expandan la información aportada en el procedimiento.
+
 ## Entrega
 
 Crea un repositorio en GitHub llamado `usando_git_en_un_proyecto` y escribe tu procedimiento en un archivo `README.md` en el directorio raíz del proyecto. Las capturas de pantalla deben incluirse también en el repositorio. Los links a otras páginas, y las imágenes deben funcionar.
