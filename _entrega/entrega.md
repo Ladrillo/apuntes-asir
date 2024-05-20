@@ -14,8 +14,6 @@ El procedimiento debe ser lo bastante claro como para que una persona sin mucha 
 
 El punto de partida imaginario del procedimiento es un ordenador Ubuntu **sin git** instalado.
 
-Todo el procedimiento es "local". [GitHub](https://github.com) no interviene.
-
 ### Pasos del Procedimiento
 
 Título: utilizar Git en un Proyecto Web.
@@ -27,6 +25,8 @@ Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que 
 3. **Estructura del proyecto**. Creación de un proyecto muy básico de HTML, creación del directorio y el archivo.
 4. **Inicialización**. Crear un repositorio de Git dentro del directorio del proyecto.
 5. **Flujo de trabajo**. Explicar cómo editar el proyecto y crear un commit localmente (no hace falta empujar a Github).
+
+Todo este procedimiento es "local": no es necesario incluir instrucciones sobre cómo empujar el proyecto a[GitHub](https://github.com).
 
 ## Valoración
 
