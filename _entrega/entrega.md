@@ -3,7 +3,6 @@
 ## Datos
 
 - Fecha Entrega: 27/05/2024
-- Nombre y Apellidos: ___________________
 
 ## Instrucciones
 
