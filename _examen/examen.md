@@ -9,13 +9,13 @@
 
 Todos los ejercicios deben ser respondidos **a mano en los huecos previstos** al pie de cada enunciado.
 
-Utilizar un papel borrador para "ensayar" la respuesta. Las respuestas ilegibles serán consideradas inválidas.
+Utiliza un papel de borrador para "ensayar" la respuesta. Las respuestas ilegibles serán consideradas inválidas.
 
-Verificar cada comando y cada secuencia de comandos en un Terminal de Linux Ubuntu: los comandos que no ejecuten correctamente, o las secuencias incorrectas de comandos no recibirán ninguna puntuación.
+Verifica cada comando y cada secuencia de comandos en un Terminal de Linux Ubuntu: los comandos que no ejecuten correctamente, o las secuencias incorrectas de comandos no recibirán ninguna puntuación.
 
 ## Ejercicios
 
-El punto de partida sería un Ubuntu LTS recién instalado en el portátil de un trabajador de tu empresa.
+El punto de partida es un Ubuntu LTS recién instalado en el portátil de un trabajador de tu empresa.
 
 ### Ejercicio 1 - Verificando los usuarios del sistema
 
@@ -27,7 +27,7 @@ Ejecuta un comando para listar los usuarios del sistema operativo:
 
 ### Ejercicio 2 - Creando una contraseña para el usuario root
 
-El usuario root no tiene la contraseña activada, y por tanto no podemos usarlo. Ejecuta un comando para crear una contraseña para root:
+El usuario root no tiene la contraseña activada, y por lo tanto no podemos usarlo. Ejecuta un comando para crear una contraseña para root:
 
 ```bash
 
@@ -35,7 +35,7 @@ El usuario root no tiene la contraseña activada, y por tanto no podemos usarlo.
 
 ### Ejercicio 3 - Verificación
 
-Ejecuta tres comandos desde un usuario normal (no root): uno para visualizar qué usuario eres, otro para ver cuál es el directorio actual en el sistema de archivos, y otro para colocarte en la carpeta home del usuario.
+Ejecuta tres comandos utilizando usuario normal (no root): uno para visualizar qué usuario eres, otro para ver cuál es el directorio actual en el sistema de archivos, y otro para colocarte en la carpeta home del usuario en cuestión.
 
 ```bash
 
