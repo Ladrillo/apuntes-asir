@@ -35,7 +35,7 @@ El usuario root no tiene la contraseña activada, y por lo tanto no podemos usar
 
 ### Ejercicio 3 - Verificación
 
-Ejecuta tres comandos utilizando usuario normal (no root): uno para visualizar qué usuario eres, otro para ver cuál es el directorio actual en el sistema de archivos, y otro para colocarte en la carpeta home del usuario en cuestión.
+Ejecuta tres comandos utilizando un usuario normal (no root): uno para visualizar qué usuario eres, otro para ver cuál es el directorio actual en el sistema de archivos, y otro para colocarte en la carpeta home del usuario en cuestión.
 
 ```bash
 
@@ -52,7 +52,7 @@ Crea un archivo desde la carpeta home de un usuario normal, y cambia los permiso
 
 ```
 
-Crea otro archivo y cambia los permisos para que el usuario y su grupo puedan Read, y ningún permiso para nadie más.
+Crea otro archivo y cambia los permisos para que el usuario propietario del archivo y su grupo tengan permiso Read, y ningún permiso para nadie más.
 
 ```bash
 
@@ -75,6 +75,8 @@ Ejecuta un comando para crear un directorio, otro para moverte dentro del nuevo 
 ```bash
 
 
+
+
 ```
 
 ### Ejercicio 7 - Uso básico de Git
@@ -89,14 +91,14 @@ Cuáles son los tres comandos que se usan habitualmente para (1) añadir todos l
 
 ### Ejercicio 8 - Encontrando directorios y archivos
 
-Qué comando puedo usar para encontrar todos los directorios dentro de home que se llamen o bien **proyecto** o **Proyecto**?
+¿Qué comando puedes usar para encontrar todos los directorios dentro de home que se llamen o bien **proyecto** o **Proyecto**?
 
 ```bash
 
 
 ```
 
-Cómo puedes encontrar todos los archivos con la extensión **.jpg** o **.JPG** utilizando un único comando?
+¿Cómo puedes encontrar todos los archivos con la extensión **.jpg** o **.JPG** utilizando un único comando?
 
 ```bash
 
@@ -121,7 +123,7 @@ Escribe un pequeño script para crear un archivo **hola_mundo.txt** en tu carpet
 
 ```
 
-Imagina que tienes tu script listo en un archivo **mi_script.sh** pero te encuentras con que no es ejecutable. Qué comando usarías para hacer el script ejecutable?
+Imagina que tienes tu script listo en un archivo **mi_script.sh** pero te encuentras con que no es ejecutable. ¿Qué comando usarías para hacer el script ejecutable?
 
 ```bash
 
