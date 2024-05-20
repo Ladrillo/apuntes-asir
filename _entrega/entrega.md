@@ -25,13 +25,13 @@ Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que 
 2. **Instalación de Git**. Detalla los pasos necesarios para instalar y configurar nombre y email en Git.
 3. **Estructura del proyecto**. Creación de un proyecto muy básico de HTML, creación del directorio y el archivo.
 4. **Inicialización**. Crear un repositorio de Git dentro del directorio del proyecto.
-5. **Flujo de trabajo**. Añadir cambios al proyecto y crear un commit localmente (no hace falta empujar a Github).
+5. **Flujo de trabajo**. Explicar cómo ed al proyecto y crear un commit localmente (no hace falta empujar a Github).
 
 ## Valoración
 
 1. Se valorará utilizar Markdown correctamente. Instala la extensión [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) para que te avise de los problemas con el formato. Investiga cómo crear enlaces (tienes un ejemplo en este mismo párrafo) y cómo insertar imágenes en documentos de Markdown.
 
-2. Se valorará la claridad y exhaustividad del procedimiento. Que no falten pasos, que no haya saltos al vacío, ni incoherencias. Los pantallazos deben ser claros, el texto de los mismos bien visible. No captures el escritorio completo, solo la parte relevante.
+2. Se valorará la claridad y exhaustividad del procedimiento. Que no falten pasos, que no haya saltos al vacío, ni incoherencias ni incorrecciones. Los pantallazos deben ser claros, el texto de los mismos bien visible. No captures el escritorio completo, solo la parte relevante.
 
 3. Se valorará incluir vínculos a páginas de internet que expandan la información aportada en el procedimiento.
 
