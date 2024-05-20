@@ -2,7 +2,7 @@
 
 ## Fechas
 
-- Fecha Entrega: 27/05/2024
+- Fecha límite de entrega: 27/05/2024
 
 ## Instrucciones
 
@@ -27,6 +27,8 @@ Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que 
 5. **Flujo de trabajo**. Explicar cómo editar el proyecto y crear un commit localmente (no hace falta empujar a Github).
 
 Todo este procedimiento es "local": no es necesario incluir instrucciones sobre cómo colocar el hipotético proyecto en [GitHub](https://github.com).
+
+Es recomendable que el autor (tú) instale una nueva máquina virtual, para poder simular perfectamente el estado inicial (Ubuntu sin Git instalado ni configurado).
 
 ## Valoración
 
