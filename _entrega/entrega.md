@@ -21,11 +21,11 @@ Título: utilizar Git en un Proyecto Web.
 
 Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que detallarse:
 
-1. **Motivación**. "Vende la moto" de para qué es útil utilizar Git para controlar un proyecto localmente.
-2. **Instalación de Git**. Detalla los pasos necesarios para instalar y configurar nombre y email en Git.
+1. **Motivación**. "Vende la moto" de por qué es útil utilizar Git para controlar un proyecto localmente.
+2. **Instalación de Git**. Detalla los pasos necesarios para instalar Git y configurar nombre y email.
 3. **Estructura del proyecto**. Creación de un proyecto muy básico de HTML, creación del directorio y el archivo.
 4. **Inicialización**. Crear un repositorio de Git dentro del directorio del proyecto.
-5. **Flujo de trabajo**. Explicar cómo ed al proyecto y crear un commit localmente (no hace falta empujar a Github).
+5. **Flujo de trabajo**. Explicar cómo editar el proyecto y crear un commit localmente (no hace falta empujar a Github).
 
 ## Valoración
 
