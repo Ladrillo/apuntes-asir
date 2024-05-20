@@ -35,4 +35,4 @@ Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que 
 
 ## Entrega
 
-Crea un repositorio en GitHub llamado `usando_git_en_un_proyecto` y empuja tu procedimiento a él. Las capturas de pantalla deben estar subidas al repositorio.
+Crea un repositorio en GitHub llamado `usando_git_en_un_proyecto` y escribe tu procedimiento en un archivo `README.md` en el directorio raíz del proyecto. Las capturas de pantalla deben incluirse también en el repositorio. Los links a otras páginas, y las imágenes deben funcionar.
