@@ -42,6 +42,6 @@ Es recomendable que el autor (tú) instale una nueva máquina virtual, para pode
 
 El procedimiento debe entregarse colocándolo en [GitHub](https://github.com) en un repositorio público.
 
-Escribe tu procedimiento en un archivo `README.md` en el directorio raíz del proyecto. Las capturas de pantalla deben incluirse en el proyecto y empujarse a GitHub. Los links a otras páginas, y las imágenes deben funcionar.
+Escribe tu procedimiento en un archivo `README.md` en el directorio raíz del proyecto. Las capturas de pantalla deben incluirse en el proyecto y empujarse a GitHub. Los links a páginas de internet y las imágenes deben funcionar.
 
 El profesor corregirá tu trabajo buscándolo en GitHub.
