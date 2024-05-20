@@ -1,6 +1,6 @@
 # Entrega Final - Sistemas Operativos
 
-## Datos
+## Fechas
 
 - Fecha Entrega: 27/05/2024
 
@@ -34,8 +34,10 @@ Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que 
 
 2. Se valorará la **claridad y exhaustividad** del procedimiento. Que no falten pasos, que no haya saltos al vacío, ni incoherencias ni incorrecciones. Los pantallazos deben ser claros, el texto de los mismos bien visible. No captures el escritorio completo, sino solo la parte relevante.
 
-3. Se valorará incluir vínculos a páginas de internet que expandan la información aportada en el procedimiento. Esto puede hacerse con una sección de "Bibliografía" al final, o insertando vínculos en cada paso.
+3. Se valorará **incluir vínculos** a páginas de internet que expandan la información aportada en el procedimiento. Esto puede hacerse con una sección de "Bibliografía" al final, o insertando vínculos en cada paso.
 
 ## Entrega
 
-Crea un repositorio en GitHub llamado `usando_git_en_un_proyecto` y escribe tu procedimiento en un archivo `README.md` en el directorio raíz del proyecto. Las capturas de pantalla deben incluirse también en el repositorio. Los links a otras páginas, y las imágenes deben funcionar.
+Crea un repositorio en tu cuenta de GitHub llamado `usando_git_en_un_proyecto` por ejemplo, y escribe tu procedimiento en un archivo `README.md` en el directorio raíz del proyecto. Las capturas de pantalla deben incluirse también en el repositorio. Los links a otras páginas, y las imágenes deben funcionar.
+
+El profesor corregirá tu trabajo buscándolo en GitHub.
