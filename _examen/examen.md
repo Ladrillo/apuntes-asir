@@ -81,7 +81,7 @@ Ejecuta un comando para crear un directorio, otro para moverte dentro del nuevo 
 
 ### Ejercicio 7 - Uso básico de Git
 
-Cuáles son los tres comandos que se usan habitualmente para (1) añadir todos los cambios de un proyecto a la lista de cambios para incluir en un commit, (2) crear un commit con el mensaje "fantástico commit" y (3) empujar todos los cambios a Github?
+¿Cuáles son los tres comandos que se usan habitualmente para (1) añadir todos los cambios de un proyecto a la lista de cambios para incluir en un commit, (2) crear un commit con el mensaje "fantástico commit" y (3) empujar el commit a Github?
 
 ```bash
 
@@ -107,7 +107,7 @@ Cuáles son los tres comandos que se usan habitualmente para (1) añadir todos l
 
 ### Ejercicio 9 - Encontrando texto
 
-Imagina que en tu directorio actual tienes un archivo **don_quijote.txt**. Deseamos saber **cuántas veces** aparece la palabra "caballero" **en singular, pero sin sensibilidad a las mayúsculas**. Dicho de otra forma, "caballero" o "Caballero" serían resultados válidos de la búsqueda, mientras que "caballeros" no lo sería.
+Imagina que en tu directorio actual tienes un archivo **don_quijote.txt**. Deseamos saber **cuántas veces** aparece en él la palabra "caballero" **en singular, pero sin sensibilidad a las mayúsculas**. Dicho de otra forma, "caballero" o "Caballero" serían resultados válidos de la búsqueda, mientras que "caballeros" no lo sería.
 
 ```bash
 
@@ -119,6 +119,8 @@ Imagina que en tu directorio actual tienes un archivo **don_quijote.txt**. Desea
 Escribe un pequeño script para crear un archivo **hola_mundo.txt** en tu carpeta home, escribiendo la cadena "Hola, Mundo" en su interior.
 
 ```bash
+#!/bin/bash
+
 
 
 ```
@@ -126,6 +128,5 @@ Escribe un pequeño script para crear un archivo **hola_mundo.txt** en tu carpet
 Imagina que tienes tu script listo en un archivo **mi_script.sh** pero te encuentras con que no es ejecutable. ¿Qué comando usarías para hacer el script ejecutable?
 
 ```bash
-
 
 ```
