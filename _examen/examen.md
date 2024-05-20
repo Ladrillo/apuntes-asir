@@ -70,7 +70,7 @@ Ejecuta un comando para crear un usuario nuevo, y otro para añadir el nuevo usu
 
 ### Ejercicio 6 - Iniciando un proyecto nuevo
 
-Ejecuta un comando para crear un directorio, otro para moverte dentro del nuevo directorio, otro para crear un archivo `index.html` dentro del directorio, y otro para inicializar un repositorio de Git.
+Ejecuta un comando para crear un directorio, otro para moverte dentro del nuevo directorio, otro para crear un archivo **index.html** dentro del directorio, y otro para inicializar un repositorio de Git.
 
 ```bash
 
@@ -89,14 +89,14 @@ Cuáles son los tres comandos que se usan habitualmente para (1) añadir todos l
 
 ### Ejercicio 8 - Encontrando directorios y archivos
 
-Qué comando puedo usar para encontrar todos los directorios dentro de home que se llamen o bien `proyecto` o `Proyecto`?
+Qué comando puedo usar para encontrar todos los directorios dentro de home que se llamen o bien **proyecto** o **Proyecto**?
 
 ```bash
 
 
 ```
 
-Qué comando puedo usar para encontrar todos los archivos con la extensión `.jpg` o `.JPG`?
+Cómo puedes encontrar todos los archivos con la extensión **.jpg** o **.JPG** utilizando un único comando?
 
 ```bash
 
@@ -105,3 +105,25 @@ Qué comando puedo usar para encontrar todos los archivos con la extensión `.jp
 
 ### Ejercicio 9 - Encontrando texto
 
+Imagina que en tu directorio actual tienes un archivo **don_quijote.txt**. Deseamos saber **cuántas veces** aparece la palabra "caballero" **en singular, pero sin sensibilidad a las mayúsculas**. Dicho de otra forma, "caballero" o "Caballero" serían resultados válidos de la búsqueda, mientras que "caballeros" no lo sería.
+
+```bash
+
+
+```
+
+### Ejercicio 10 - Creando scripts en Bash
+
+Escribe un pequeño script para crear un archivo **hola_mundo.txt** en tu carpeta home, escribiendo la cadena "Hola, Mundo" en su interior.
+
+```bash
+
+
+```
+
+Imagina que tienes tu script listo en un archivo **mi_script.sh** pero te encuentras con que no es ejecutable. Qué comando usarías para hacer el script ejecutable?
+
+```bash
+
+
+```
