@@ -15,6 +15,8 @@ El procedimiento debe ser lo bastante claro como para que una persona sin mucha 
 
 El punto de partida imaginario del procedimiento es un ordenador Ubuntu **sin git** instalado.
 
+Todo el procedimiento es "local". [GitHub](https://github.com) no interviene.
+
 ### Pasos del Procedimiento
 
 Título: utilizar Git en un Proyecto Web.
