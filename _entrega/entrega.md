@@ -26,7 +26,7 @@ Puedes estructurar los siguientes pasos cómo consideres, pero todos tienen que 
 4. **Inicialización**. Crear un repositorio de Git dentro del directorio del proyecto.
 5. **Flujo de trabajo**. Explicar cómo editar el proyecto y crear un commit localmente (no hace falta empujar a Github).
 
-Todo este procedimiento es "local": no es necesario incluir instrucciones sobre cómo empujar el proyecto a[GitHub](https://github.com).
+Todo este procedimiento es "local": no es necesario incluir instrucciones sobre cómo empujar el proyecto a [GitHub](https://github.com).
 
 ## Valoración
 
