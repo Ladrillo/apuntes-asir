@@ -86,7 +86,6 @@ Ejecuta un comando para crear un directorio, otro para moverte dentro del nuevo 
 ```bash
 
 
-
 ```
 
 ### Ejercicio 8 - Encontrando directorios y archivos
